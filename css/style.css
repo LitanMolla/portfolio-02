@@ -1,0 +1,788 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", serif;
+    outline: 0;
+}
+
+ol,ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+p{
+    color: #C7D5D3;
+}
+/* All Common CSS End */
+
+
+
+/* Banner Part Start */
+#bannerPart{
+    background: #012F2C;
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.bannerText h1{
+    font-size: 72px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+.bannerText p{
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 12px;
+    margin-bottom: 48px;
+}
+
+.bannerTextFlex{
+    gap: 48px;
+}
+
+.bannerTextFlex button:hover{
+    background: #fff;
+}
+
+.bannerTextFlex button{
+    font-size: 16px;
+    line-height: 150%;
+    border-radius: 16px;
+    background: #7CD5C4;
+    padding: 16px 24px;
+    border: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.clientPhoto img{
+    height: 55px;
+    width: 55px;
+}
+
+.clientPhoto img{
+    margin-left: -12px;
+}
+
+.clientPhoto img:first-child{
+    margin-left: 0;
+}
+
+.clientProfiles{
+    gap: 10px;
+}
+
+.clientText h3{
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.clientText p{
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.bannerRightImg img{
+    border-radius: 100px 0 100px 100px;
+    border: 5px solid #A1F57A;
+}
+
+.partnerPart{
+    margin-top: 50px;
+}
+/* Banner Part End */
+
+
+/* Nav Part Start */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-link{
+    color: #C7D5D3;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 15px;
+    transition: .5s;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.navButton button{
+    font-size: 16px;
+    line-height: 150%;
+    border-radius: 16px;
+    background: #fff;
+    padding: 16px 24px;
+    border: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.navButton button:hover{
+    color: #fff;
+    background: #000;
+}
+
+/* Nav Part End */
+
+
+/* Skill Part Start */
+#skillPart{
+    padding: 120px 0;
+    background: #F9F9F9;
+}
+
+#skillPart hr{
+    border: 0;
+    height: 2px;
+    background: #012F2C;
+    opacity: 1;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.skillText{
+    padding-left: 52px;
+}
+
+.skillText h1{
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.skillText p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #5D5D5D; 
+    margin-bottom: 40px;
+    margin-top: 26px;
+}
+
+.skillText button{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #fff;
+    background: #000;
+    padding: 16px 24px;
+    border-radius: 12px;
+    transition: .5s;
+    border: none;
+}
+
+.skillText button:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.skillItem h1{
+    color: #fff;
+    background: #012F2C;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 133%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.skillItem h2{
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.skillItem p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #5D5D5D;
+}
+/* Skill Part End */
+
+
+/* Know Part Start */
+#knowPart{
+    margin: 120px 0;
+}
+
+
+.knowText h1{
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.knowText p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #5D5D5D; 
+    margin-bottom: 48px;
+    margin-top: 12px;
+}
+
+.knowText button{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #fff;
+    background: #000;
+    padding: 16px 24px;
+    border-radius: 12px;
+    transition: .5s;
+    border: none;
+}
+
+.knowText button:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+/* Know Part End */
+
+
+/* Pordcoust Part Start */
+#pordcoustPart{
+    background: #012F2C;
+    padding: 120px 0;
+}
+
+.pordcoustHead h1{
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #fff;
+}
+
+.pordcoustHead p{
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.podcastBG{
+    background: url(../images/podcasts.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220px 0;
+    border-radius: 50px 0 50px 50px;
+    border: 5px solid #fff;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.playIcon i{
+    font-size: 110px;
+    color: #fff;
+}
+
+.playIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.podcastButton{
+    display: flex;
+    justify-content: center;
+}
+
+.podcastButton button{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #000;
+    background: #7CD5C4;
+    padding: 16px 24px;
+    border-radius: 12px;
+    transition: .5s;
+    border: none;
+}
+
+.podcastButton button:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+/* Pordcoust Part End */
+
+
+/* Futured Part Start */
+#futuredPart{
+    padding: 120px 0;
+    background: #F6F6F6;
+}
+
+.futureHeader h1{
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.futureHeader p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #5D5D5D;
+}
+
+.futureHeader{
+    margin-bottom: 60px;
+}
+
+.futuredItem h2{
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+.futuredItem p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #5D5D5D;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.futuredItem a{
+    color: #000;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.futuredButton{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.futuredButton button{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #fff;
+    background: #000;
+    padding: 16px 24px;
+    border-radius: 12px;
+    transition: .5s;
+    border: none;
+}
+
+.futuredButton button:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+/* Futured Part End */
+
+
+/* Blog Part Start */
+#blogPart{
+    margin: 120px 0;
+}
+
+.blogHeader{
+    margin-bottom: 60px;
+}
+
+.blogHeader h1{
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.blogHeader p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #5D5D5D;
+}
+
+.blogText h2{
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+.blogText p{
+    font-size: 14px;
+    line-height: 150%;
+    color: #5D5D5D;
+    margin-top: 8px;
+}
+
+.blogItem{
+    margin-bottom: 36px;
+}
+
+.blogItem:last-child{
+    margin-bottom: 0;
+}
+
+.blogRight p{
+    font-size: 14px;
+    line-height: 150%;
+    color: #5D5D5D;
+    margin-top: 25px;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+.blogRight h2{
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+.blogRight a{
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    font-weight: 500;
+}
+
+.blogRight i{
+    margin-left: 10px;
+}
+/* Blog Part End */
+
+
+/* FAQ Part Start */
+#faqPart{
+    margin: 120px 0;
+}
+
+.faqHeader h1{
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.faqHeader p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #5D5D5D;
+    margin-top: 12px;
+}
+
+.faqHeader{
+    margin-bottom: 60px;
+}
+
+.blogitem1{
+    background: #D7EDD3;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.blogitem1 h1{
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.blogitem1 p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+}
+
+.faqItem h1{
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.faqItem i{
+    font-size: 20px;
+}
+
+.faqItem{
+    border: 1px solid #5D5D5D;
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 20px;
+}
+
+.faqButton button{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    color: #fff;
+    background: #000;
+    padding: 16px 24px;
+    border-radius: 12px;
+    transition: .5s;
+    border: none;
+}
+
+.faqButton button:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.faqButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+/* FAQ Part End */
+
+
+/* News Part Start */
+#newsLatterPart{
+
+}
+
+.newsBG{
+    background: #259999;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.newsText h1{
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.newsText p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #C7D5D3;
+}
+
+.newsText input{
+    background: none;
+    color: #C7D5D3;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 16px 24px;
+    border-radius: 16px;
+    border: 1px solid #C7D5D3;
+}
+
+
+.newsText button:hover{
+    background: #000;
+    color: #fff;
+}
+
+.newsText button{
+    background: #7CD5C4;
+    color: #000;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 16px 24px;
+    border-radius: 16px;
+    border: 1px solid #C7D5D3;
+    transition: .5s;
+}
+
+.newsText input::placeholder{
+    color: #C7D5D3;
+}
+
+.subscribeBox{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.subscribeBox input{
+    flex: 1;
+}
+
+.subscribeBox button{
+    flex-shrink: 0;
+}
+
+.navButton{
+    display: flex;
+}
+
+.navButton button{
+    flex-shrink: 0;
+}
+/* News Part End */
+
+
+/* Footer Part Start */
+#footerPart{
+    background: #012F2C;
+}
+
+#footerPart hr{
+    border: 0;
+    height: 1px;
+    background: #fff;
+    margin-top: 60px;
+}
+
+.footerMenuItem{
+    flex: 1;
+    padding-top: 60px;
+}
+
+.footerMenuItem h3{
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.footerMenuItem ul li a:hover{
+    color: #fff;
+}
+
+.footerMenuItem ul li a{
+    color: #C7D5D3;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 8px;
+    transition: .5s;
+}
+
+.footerSocial a i{
+    color: #fff;
+    font-size: 25px;
+    transition: .5s;
+}
+
+.footerSocial a i:hover{
+    color: #259999;
+}
+
+.footerSocial{
+    display: flex;
+    gap: 10px;
+}
+
+.footerLogo{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footerLogo p{
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.sticky{
+    background: #012F2C;
+    animation: alamin 1s;
+    }
+    @keyframes alamin{
+    from{
+    top: -100px;
+    }
+    to{
+    top: 0;
+    }
+    }
+
+.navbar-toggler i{
+    color: #fff;
+    font-size: 30px;
+}  
+.navbar-toggler{
+    color: #fff;
+    margin: 10px 0;
+}  
+/* Footer Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+

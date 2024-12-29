@@ -1,0 +1,306 @@
+/* Extra large devices */
+@media (min-width: 1200px) {  }
+
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    *{
+        overflow-x: hidden;
+        line-height: normal !important;
+    }
+
+    .navbar-nav{
+        background: #012F2C;
+        border-radius: 20px;
+    }
+
+    .navButton{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bannerText h1 {
+        font-size: 65px;
+        line-height: normal;
+    }
+
+    .bannerText {
+        margin-bottom: 50px;
+    }
+
+    .partnerPart {
+        display: grid !important;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+    .partnarItem{
+        margin: 10px 0;
+    }
+
+    .bannerTextFlex {
+        justify-content: center;
+    }
+
+    .skillImg,.knowText,.futuredItem{
+        margin-bottom: 50px;
+    }
+
+    .skillText h1 {
+        line-height: normal;
+    }
+    /* ======================== */
+    .navbar-nav,.bannerText,.skillText,.knowText,.pordcoustHead,.futureHeader,.blogHeader {
+        text-align: center;
+    }
+ }
+
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    *{
+        overflow-x: hidden;
+        line-height: normal !important;
+    }
+
+    .navbar-nav{
+        background: #012F2C;
+        border-radius: 20px;
+    }
+
+    .navButton{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bannerText h1 {
+        font-size: 60px;
+        line-height: normal;
+    }
+
+    .bannerTextFlex {
+        gap: 20px;
+    }
+
+    .bannerText{
+        margin-bottom: 50px;
+    }
+
+    .partnerPart {
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .partnarItem{
+        margin: 10px 0;
+    }
+
+    .skillImg{
+        margin-bottom: 20px;
+    }
+
+    .skillText {
+       padding-left: 0;
+    }
+
+    .skillText h1 {
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    #knowPart {
+        margin: 60px 0;
+    }
+
+    .knowText h1 {
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    .knowText{
+        margin-bottom: 20px;
+    }
+
+    #pordcoustPart {
+        padding: 60px 0;
+    }
+
+    .pordcoustHead h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .futureHeader h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    #futuredPart {
+        padding: 60px 0;
+    }
+
+    .futuredItem{
+        margin-bottom: 20px;
+    }
+
+    .blogHeader h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    #blogPart {
+        margin: 60px 0;
+    }
+
+    #faqPart {
+        margin: 60px 0;
+    }
+
+    .newsBG {
+        padding: 30px 10px;
+    }
+
+    .newsText h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .footerMenuPart {
+        display: grid !important;
+        grid-template-columns: 2fr 2fr 2fr;
+        justify-content: center !important;
+    }
+    /* ======================== */
+    .navbar-nav,.bannerText,.skillText,.knowText,.pordcoustHead,.futureHeader,.blogHeader {
+        text-align: center;
+    }
+ }
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) { 
+    *{
+        overflow-x: hidden;
+        line-height: normal !important;
+    }
+
+    .navbar-nav{
+        background: #012F2C;
+        border-radius: 20px;
+    }
+
+    .navButton{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bannerText h1 {
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    .bannerText{
+        margin-bottom: 50px;
+    }
+
+    .bannerTextFlex {
+        gap: 10px;
+    }
+
+    .partnerPart {
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .partnarItem{
+        margin: 10px 0;
+    }
+
+    #skillPart {
+        padding: 60px 0;
+    }
+
+    .skillImg{
+        margin-bottom: 20px;
+    }
+
+    .skillText {
+       padding-left: 0;
+    }
+
+    .skillText h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    #knowPart {
+        margin: 60px 0;
+    }
+
+    .knowText h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .knowText{
+        margin-bottom: 20px;
+    }
+
+    #pordcoustPart {
+        padding: 60px 0;
+    }
+
+    .pordcoustHead h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .futureHeader h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    #futuredPart {
+        padding: 60px 0;
+    }
+
+    .futuredItem{
+        margin-bottom: 20px;
+    }
+
+    .blogHeader h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    #blogPart {
+        margin: 60px 0;
+    }
+
+    #faqPart {
+        margin: 60px 0;
+    }
+
+    .newsBG {
+        padding: 30px 10px;
+    }
+
+    .newsText h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .footerMenuPart {
+        display: grid !important;
+        grid-template-columns: 2fr 2fr 2fr;
+        justify-content: center !important;
+    }
+    /* ======================== */
+    .navbar-nav,.bannerText,.skillText,.knowText,.pordcoustHead,.futureHeader,.blogHeader {
+        text-align: center;
+    }
+    /* ======================== */
+ }
